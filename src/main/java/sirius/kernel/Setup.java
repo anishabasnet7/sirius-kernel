@@ -8,17 +8,6 @@
 
 package sirius.kernel;
 
-import com.typesafe.config.Config;
-import com.typesafe.config.ConfigFactory;
-import sirius.kernel.commons.Producer;
-import sirius.kernel.commons.Strings;
-import sirius.kernel.commons.Value;
-import sirius.kernel.commons.ValueHolder;
-import sirius.kernel.health.Exceptions;
-import sirius.kernel.nls.NLS;
-
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
 import java.io.File;
 import java.lang.management.ManagementFactory;
 import java.lang.management.OperatingSystemMXBean;
@@ -35,6 +24,19 @@ import java.util.logging.Logger;
 import java.util.logging.StreamHandler;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
+
+import sirius.kernel.commons.Producer;
+import sirius.kernel.commons.Strings;
+import sirius.kernel.commons.Value;
+import sirius.kernel.commons.ValueHolder;
+import sirius.kernel.health.Exceptions;
+import sirius.kernel.nls.NLS;
 
 /**
  * Used to configure the setup of the SIRIUS framework.

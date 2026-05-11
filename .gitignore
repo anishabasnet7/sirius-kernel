@@ -3,3 +3,4 @@ target
 *.iml
 instance.conf
 .gradle
+.vscode/
