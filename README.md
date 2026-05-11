@@ -4,6 +4,12 @@
 - **TUM ID:** go46gib
 - **Matriculation Number:** 03811601
 
+# Static Code Analysis
+> Added `docker-compose.yml` to automate the setup of SonarQube.
+> To run the analysis:
+> 1. Run `docker-compose up -d`.
+> 2. `mvn clean compile sonar:sonar -Dsonar.projectKey=Task-2-Set-up-a-Static-Code-Analysis-Tool -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_0d51bd997474e057050c29d870fc67d4c82636b4 -DskipTests`
+
 # sirius-kernel
 ![sirius](docs/sirius.jpg)
 [![Build Status](https://drone.scireum.com/api/badges/scireum/sirius-kernel/status.svg?ref=refs/heads/main)](https://drone.scireum.com/scireum/sirius-kernel)
