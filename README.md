@@ -1,10 +1,10 @@
-# Project Information
+# Task 1 Project Information
 - **Name:** Anisha Basnet
 - **Email:** go46gib@mytum.de
 - **TUM ID:** go46gib
 - **Matriculation Number:** 03811601
 
-# Static Code Analysis
+# Task 2 Static Code Analysis
 > Added `docker-compose.yml` to automate the setup of SonarQube.
 > To run the analysis:
 > 1. Run `docker-compose up -d`.
