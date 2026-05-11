@@ -1,3 +1,9 @@
+# Project Information
+- **Name:** Anisha Basnet
+- **Email:** go46gib@mytum.de
+- **TUM ID:** go46gib
+- **Matriculation Number:** 03811601
+
 # sirius-kernel
 ![sirius](docs/sirius.jpg)
 [![Build Status](https://drone.scireum.com/api/badges/scireum/sirius-kernel/status.svg?ref=refs/heads/main)](https://drone.scireum.com/scireum/sirius-kernel)
