@@ -1,0 +1,523 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.scireum:sirius-kernel >----------------------
+[INFO] Building SIRIUS kernel DEVELOPMENT-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ sirius-kernel ---
+[INFO] Deleting /Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ sirius-kernel ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 14 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ sirius-kernel ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 205 source files with javac [forked debug deprecation release 24] to target/classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (compile) @ sirius-kernel ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 205 source files with javac [forked debug deprecation release 24] to target/classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ sirius-kernel ---
+[INFO] Copying 5 resources from src/test/resources to target/test-classes
+[INFO] Copying 6 resources from docs to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ sirius-kernel ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 20 source files with javac [forked debug deprecation release 24] to target/test-classes
+[INFO] 
+[INFO] --- antrun:3.2.0:run (groovyc) @ sirius-kernel ---
+[INFO] Executing tasks
+[INFO]   [groovyc] Compiling 1 source file to /Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/target/test-classes
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (testCompile) @ sirius-kernel ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 20 source files with javac [forked debug deprecation release 24] to target/test-classes
+[INFO] 
+[INFO] --- kotlin:2.3.21:test-compile (test-compile) @ sirius-kernel ---
+[WARNING] Using experimental Kotlin incremental compilation
+[INFO] Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=null, generateCompilerRefIndex=false), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$ToBeCalculated@459df48d, classpathChanges=NotAvailableDueToMissingClasspathSnapshot, workingDir=/Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/target/kotlin-ic/test, multiModuleICSettings=null, icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=false, withAbiSnapshot=false, preciseCompilationResultsBackup=false, keepIncrementalCompilationCachesInMemory=false, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=false), outputFiles=null)
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:47:49 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:48:50 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:65:36 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:66:74 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:74:36 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:75:38 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:75:93 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:88:90 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:89:38 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:89:62 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:90:38 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:90:66 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:94:41 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/AmountTest.kt:113:48 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/ValueTest.kt:181:56 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/ValueTest.kt:195:59 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/ValueTest.kt:208:57 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/commons/ValueTest.kt:222:60 Redundant call of conversion method.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/nls/NLStest.kt:39:44 This class is not recommended for use in Kotlin. Use 'kotlin.Int' instead.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/nls/NLStest.kt:45:44 This class is not recommended for use in Kotlin. Use 'kotlin.Int' instead.
+[WARNING] file:///Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/src/test/kotlin/sirius/kernel/nls/NLStest.kt:51:44 This class is not recommended for use in Kotlin. Use 'kotlin.Int' instead.
+[INFO] 
+[INFO] --- surefire:3.5.5:test (default-test) @ sirius-kernel ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running sirius.kernel.settings.SettingsTest
+[2026-05-11T12:27:23.307] INFO    [sirius - Setup.java:199] OpenJDK 64-Bit Server VM (25, Homebrew, 25.0.2)
+[2026-05-11T12:27:23.314] INFO    [sirius - Setup.java:203] Mac OS X (26.4.1) on 8 CPUs (aarch64)
+[2026-05-11T12:27:23.314] INFO    [sirius - Sirius.java:501] ---------------------------------------------------------
+[2026-05-11T12:27:23.314] INFO    [sirius - Sirius.java:502] System is STARTING...
+[2026-05-11T12:27:23.314] INFO    [sirius - Sirius.java:503] ---------------------------------------------------------
+[2026-05-11T12:27:23.314] INFO    [sirius - Sirius.java:285] Loading local config...
+[2026-05-11T12:27:23.314] INFO    [sirius - Sirius.java:286] ---------------------------------------------------------
+[2026-05-11T12:27:23.319] INFO    [sirius - Setup.java:379] test.conf not present in classpath
+[2026-05-11T12:27:23.321] INFO    [sirius - Sirius.java:331] ---------------------------------------------------------
+[2026-05-11T12:27:23.322] INFO    [sirius - Sirius.java:387] Classpath: file:/Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/target/classes/component.marker
+[2026-05-11T12:27:23.322] INFO    [sirius - Sirius.java:387] Classpath: file:/Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/target/test-classes/component.marker
+[2026-05-11T12:27:23.322] INFO    [sirius - Sirius.java:341] Loading system config...
+[2026-05-11T12:27:23.322] INFO    [sirius - Sirius.java:342] ---------------------------------------------------------
+[2026-05-11T12:27:23.327] INFO    [sirius - Setup.java:360] application.conf not present in classpath
+[2026-05-11T12:27:23.330] INFO    [sirius - Sirius.java:353] Loading test config: component-test-kernel.conf
+[2026-05-11T12:27:23.348] INFO    [sirius - Sirius.java:368] Loading config: component-test-kernel.conf
+[2026-05-11T12:27:23.349] INFO    [sirius - Sirius.java:368] Loading config: component-050-kernel.conf
+[2026-05-11T12:27:23.355] INFO    [sirius - Sirius.java:377] ---------------------------------------------------------
+[2026-05-11T12:27:23.355] INFO    [sirius - Sirius.java:258] ---------------------------------------------------------
+[2026-05-11T12:27:23.355] INFO    [sirius - Sirius.java:166] Initializing the log system:
+[2026-05-11T12:27:23.356] INFO    [sirius - Sirius.java:169] * Setting ignored to: OFF
+[2026-05-11T12:27:23.357] INFO    [sirius - Sirius.java:200] Enabled 1 of 1 frameworks...
+[2026-05-11T12:27:23.357] INFO    [sirius - Sirius.java:203] Active Customizations: []
+[2026-05-11T12:27:23.372] INFO    [di - Injector.java:82] Initializing the MicroKernel....
+[2026-05-11T12:27:23.372] INFO    [di - Injector.java:83] ~ Scanning .class files...
+[2026-05-11T12:27:23.469] INFO    [di - Injector.java:86] ~ Applying 2 class load actions on 359 classes...
+[2026-05-11T12:27:23.473] INFO    [di - Injector.java:89] ~ Initializing static parts-references...
+[2026-05-11T12:27:23.476] INFO    [di - Injector.java:92] ~ Initializing parts...
+[2026-05-11T12:27:23.477] INFO    [docker - DockerHelper.java:185] No docker file is present - skipping....
+[2026-05-11T12:27:23.481] INFO    [sirius - Sirius.java:231] Starting: sirius.kernel.async.Tasks
+[2026-05-11T12:27:23.482] INFO    [sirius - Sirius.java:231] Starting: sirius.kernel.AutoSetup
+[2026-05-11T12:27:23.482] INFO    [sirius - Sirius.java:231] Starting: sirius.kernel.timer.Timers
+[2026-05-11T12:27:23.483] INFO    [sirius - Sirius.java:505] ---------------------------------------------------------
+[2026-05-11T12:27:23.484] INFO    [sirius - Sirius.java:506] System is UP and RUNNING - 186 milliseconds
+[2026-05-11T12:27:23.484] INFO    [sirius - Sirius.java:507] ---------------------------------------------------------
+[2026-05-11T12:27:23.504] WARNING [extensions - ExtendedSettings.java:155] Unknown extension type requested: non-existent
+[2026-05-11T12:27:23.504] WARNING [extensions - ExtendedSettings.java:125] Unknown extension type requested: non-existent
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 s -- in sirius.kernel.settings.SettingsTest
+[INFO] Running sirius.kernel.settings.ConfigBuilderTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in sirius.kernel.settings.ConfigBuilderTest
+[INFO] Running sirius.kernel.di.transformers.AutotransformerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in sirius.kernel.di.transformers.AutotransformerTest
+[INFO] Running sirius.kernel.di.transformers.TransformerTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in sirius.kernel.di.transformers.TransformerTest
+[INFO] Running sirius.kernel.cache.ManagedCacheTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.147 s -- in sirius.kernel.cache.ManagedCacheTest
+[INFO] Running sirius.kernel.nls.NLSTest
+[ERROR] Tests run: 57, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! -- in sirius.kernel.nls.NLSTest
+[ERROR] sirius.kernel.nls.NLSTest.test various formatters -- Time elapsed: 0.007 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <03:04 AM> but was: <03:04 am>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at sirius.kernel.nls.NLSTest.test various formatters(NLStest.kt:318)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+[INFO] Running sirius.kernel.nls.FormatterTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in sirius.kernel.nls.FormatterTest
+[INFO] Running sirius.kernel.commons.UrlsTest
+[INFO] Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in sirius.kernel.commons.UrlsTest
+[INFO] Running sirius.kernel.commons.AdvancedDateParserTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in sirius.kernel.commons.AdvancedDateParserTest
+[INFO] Running sirius.kernel.commons.PriorityCollectorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in sirius.kernel.commons.PriorityCollectorTest
+[INFO] Running sirius.kernel.commons.DatesTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in sirius.kernel.commons.DatesTest
+[INFO] Running sirius.kernel.commons.CSVReaderTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in sirius.kernel.commons.CSVReaderTest
+[INFO] Running sirius.kernel.commons.StreamsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in sirius.kernel.commons.StreamsTest
+[INFO] Running sirius.kernel.commons.MultiMapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in sirius.kernel.commons.MultiMapTest
+[INFO] Running sirius.kernel.commons.StringsTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in sirius.kernel.commons.StringsTest
+[INFO] Running sirius.kernel.commons.ContentDispositionParserTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in sirius.kernel.commons.ContentDispositionParserTest
+[INFO] Running sirius.kernel.commons.RomanNumeralTest
+[INFO] Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in sirius.kernel.commons.RomanNumeralTest
+[INFO] Running sirius.kernel.commons.CSVWriterTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in sirius.kernel.commons.CSVWriterTest
+[INFO] Running sirius.kernel.commons.URLBuilderTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in sirius.kernel.commons.URLBuilderTest
+[INFO] Running sirius.kernel.commons.BOMReaderTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in sirius.kernel.commons.BOMReaderTest
+[INFO] Running sirius.kernel.commons.AmountTest
+[INFO] Tests run: 83, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 s -- in sirius.kernel.commons.AmountTest
+[INFO] Running sirius.kernel.commons.LimitTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in sirius.kernel.commons.LimitTest
+[INFO] Running sirius.kernel.commons.FilesTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in sirius.kernel.commons.FilesTest
+[INFO] Running sirius.kernel.commons.JsonTest
+[INFO] Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in sirius.kernel.commons.JsonTest
+[INFO] Running sirius.kernel.commons.TrieTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in sirius.kernel.commons.TrieTest
+[INFO] Running sirius.kernel.commons.CodePointTrieTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in sirius.kernel.commons.CodePointTrieTest
+[INFO] Running sirius.kernel.commons.PullBasedSpliteratorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in sirius.kernel.commons.PullBasedSpliteratorTest
+[INFO] Running sirius.kernel.commons.ValueTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in sirius.kernel.commons.ValueTest
+[INFO] Running sirius.kernel.commons.HasherTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in sirius.kernel.commons.HasherTest
+[INFO] Running sirius.kernel.commons.ValuesTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in sirius.kernel.commons.ValuesTest
+[INFO] Running sirius.kernel.commons.EmojiTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in sirius.kernel.commons.EmojiTest
+[INFO] Running sirius.kernel.health.ExceptionsTest
+[2026-05-11T12:27:24.970] WARNING [deprecated - Exceptions.java:471] The deprecated method 'sirius.kernel.health.ExceptionsTest.deprecatedMethod' was called by 'sirius.kernel.health.ExceptionsTest.caller'
+---------------------------------------------------
+flow: Mac.fritz.box/213
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in sirius.kernel.health.ExceptionsTest
+[INFO] Running sirius.kernel.timer.EveryDayTaskTest
+[2026-05-11T12:27:24.976] INFO    [background - EndOfDayTaskExecutor.java:79] Executing end of day task: test
+[2026-05-11T12:27:24.977] INFO    [background - EndOfDayTaskExecutor.java:81] Executed test - Took: , Success: true, Last Error: -
+[2026-05-11T12:27:24.977] INFO    [background - EndOfDayTaskExecutor.java:75] Aborting end of day tasks, as the time limit has been hit...
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.014 s -- in sirius.kernel.timer.EveryDayTaskTest
+[INFO] Running sirius.kernel.async.BackgroundLoopTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.01 s -- in sirius.kernel.async.BackgroundLoopTest
+[INFO] Running sirius.kernel.async.CombinedFutureTest
+[2026-05-11T12:27:47.002] SEVERE  [tasks - Exceptions.java:250] sirius.kernel.health.HandledException: Ein unerwarteter Fehler ist aufgetreten: ThisIsExpected (java.lang.IllegalStateException)sirius.kernel.health.HandledException: Ein unerwarteter Fehler ist aufgetreten: ThisIsExpected (java.lang.IllegalStateException)
+	at sirius.kernel.health.Exceptions$ErrorHandler.handle(Exceptions.java:248)
+	at sirius.kernel.health.Exceptions.handle(Exceptions.java:413)
+	at sirius.kernel.async.Promise.fail(Promise.java:115)
+	at sirius.kernel.async.CombinedFuture.asFuture(CombinedFuture.java:96)
+	at sirius.kernel.async.CombinedFutureTest.combinedFutureWorkWithFailingFutures(CombinedFutureTest.kt:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:786)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:514)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$4(TestMethodTestDescriptor.java:221)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:217)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:159)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:157)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:161)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:161)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:230)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:204)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:172)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:101)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:64)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:150)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:63)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:109)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:91)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.IllegalStateException: ThisIsExpected
+	at sirius.kernel.async.CombinedFutureTest.combinedFutureWorkWithFailingFutures(CombinedFutureTest.kt:49)
+	... 76 more
+
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 s -- in sirius.kernel.async.CombinedFutureTest
+[INFO] Running sirius.kernel.async.PromiseTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in sirius.kernel.async.PromiseTest
+[INFO] Running sirius.kernel.async.ParallelTaskExecutorTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.832 s -- in sirius.kernel.async.ParallelTaskExecutorTest
+[INFO] Running sirius.kernel.async.TasksTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in sirius.kernel.async.TasksTest
+[INFO] Running sirius.kernel.xml.SOAPClientTest
+[2026-05-11T12:27:47.984] SEVERE  [soap - Exceptions.java:250] sirius.kernel.health.HandledException: Ein Fehler ist aufgetreten: An error occurred when executing 'action' against 'http://localhost:2345': null (java.net.ConnectException)sirius.kernel.health.HandledException: Ein Fehler ist aufgetreten: An error occurred when executing 'action' against 'http://localhost:2345': null (java.net.ConnectException)
+	at sirius.kernel.health.Exceptions$ErrorHandler.handle(Exceptions.java:248)
+	at sirius.kernel.xml.SOAPClient.handleGeneralFault(SOAPClient.java:507)
+	at sirius.kernel.xml.SOAPClient.call(SOAPClient.java:390)
+	at sirius.kernel.xml.SOAPClient.call(SOAPClient.java:330)
+	at sirius.kernel.xml.SOAPClientTest.Unsuccessful SOAPClient calls getting blacklisted get logged only once(SoapClientTest.kt:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:786)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:514)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$4(TestMethodTestDescriptor.java:221)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:217)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:159)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:157)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:161)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:161)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:230)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:204)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:172)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:101)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:64)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:150)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:63)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:109)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:91)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:923)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+	at sirius.kernel.commons.Outcall.performRequest(Outcall.java:598)
+	at sirius.kernel.commons.Outcall.connect(Outcall.java:565)
+	at sirius.kernel.commons.Outcall.getResponse(Outcall.java:538)
+	at sirius.kernel.xml.XMLCall.getResponseBody(XMLCall.java:216)
+	at sirius.kernel.xml.XMLCall.getInputStream(XMLCall.java:204)
+	at sirius.kernel.xml.XMLCall.getInput(XMLCall.java:185)
+	at sirius.kernel.xml.SOAPClient.call(SOAPClient.java:369)
+	... 78 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1070)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:223)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:277)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:235)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:932)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:204)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:942)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:211)
+	... 9 more
+
+[2026-05-11T12:27:47.985] SEVERE  [soap - Exceptions.java:250] sirius.kernel.health.HandledException: Ein Fehler ist aufgetreten: An error occurred when executing 'action' against 'http://localhost:2345': Connections with blacklist identifier localhost get rejected until 2026-05-11T10:27:57 due to connectivity issues. (java.io.IOException)sirius.kernel.health.HandledException: Ein Fehler ist aufgetreten: An error occurred when executing 'action' against 'http://localhost:2345': Connections with blacklist identifier localhost get rejected until 2026-05-11T10:27:57 due to connectivity issues. (java.io.IOException)
+	at sirius.kernel.health.Exceptions$ErrorHandler.handle(Exceptions.java:248)
+	at sirius.kernel.xml.SOAPClient.handleGeneralFault(SOAPClient.java:507)
+	at sirius.kernel.xml.SOAPClient.call(SOAPClient.java:390)
+	at sirius.kernel.xml.SOAPClient.call(SOAPClient.java:330)
+	at sirius.kernel.xml.SOAPClientTest.Unsuccessful SOAPClient calls getting blacklisted get logged only once(SoapClientTest.kt:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:786)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:514)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$4(TestMethodTestDescriptor.java:221)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:217)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:159)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:157)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:161)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:161)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:147)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:145)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:101)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:230)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:204)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:172)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:101)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:64)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:150)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:63)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:109)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:91)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: Connections with blacklist identifier localhost get rejected until 2026-05-11T10:27:57 due to connectivity issues.
+	at sirius.kernel.commons.Outcall.checkTimeoutBlacklist(Outcall.java:639)
+	at sirius.kernel.commons.Outcall.connect(Outcall.java:547)
+	at sirius.kernel.commons.Outcall.getResponse(Outcall.java:538)
+	at sirius.kernel.xml.XMLCall.getResponseBody(XMLCall.java:216)
+	at sirius.kernel.xml.XMLCall.getInputStream(XMLCall.java:204)
+	at sirius.kernel.xml.XMLCall.getInput(XMLCall.java:185)
+	at sirius.kernel.xml.SOAPClient.call(SOAPClient.java:369)
+	... 78 more
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 s -- in sirius.kernel.xml.SOAPClientTest
+[INFO] Running sirius.kernel.xml.XmlReaderTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in sirius.kernel.xml.XmlReaderTest
+[INFO] Running sirius.kernel.xml.XMLStructuredInputTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in sirius.kernel.xml.XMLStructuredInputTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   NLSTest.test various formatters:318 expected: <03:04 AM> but was: <03:04 am>
+[INFO] 
+[ERROR] Tests run: 441, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  32.713 s
+[INFO] Finished at: 2026-05-11T12:27:48+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.5:test (default-test) on project sirius-kernel: There are test failures.
+[ERROR] 
+[ERROR] See /Users/anisha/Downloads/ThirdSem/Testing/sirius-kernel/target/surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
